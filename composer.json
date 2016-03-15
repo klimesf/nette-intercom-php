@@ -1,0 +1,32 @@
+{
+    "name": "klimesf/nette-intercom-php",
+    "description": "Nette extension for the Intercom API PHP Bindings.",
+    "type": "library",
+    "license": "Apache Version 2",
+    "keywords": [
+        "intercom",
+        "intercom.io",
+        "nette",
+        "api",
+        "guzzle"
+    ],
+    "authors": [
+        {
+            "name": "Filip Klimes",
+            "email": "filip@filipklimes.cz"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "intercom/intercom-php": "~1.5",
+        "nette/di": "~2.3"
+    },
+    "require-dev": {
+        "nette/tester": "~1.7"
+    },
+    "autoload": {
+        "psr-0": {
+            "Klimesf": "src/"
+        }
+    }
+}
