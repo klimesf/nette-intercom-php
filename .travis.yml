@@ -18,7 +18,7 @@ matrix:
 
 script:
     - vendor/bin/tester -p $PHP_BIN tests -s
-    - php temp/code-checker/src/code-checker.php --short-arrays
+    - php temp/code-checker/src/code-checker.php --short-arrays -i composer.json
 
 after_failure:
     # Print *.actual content
